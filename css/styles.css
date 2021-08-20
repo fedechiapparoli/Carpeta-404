@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+body .error-mensaje {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 100px);
+  justify-content: center;
+  align-items: center;
+}
+body .error-mensaje-container {
+  text-align: center;
+  color: white;
+}
+body .error-mensaje-container h1 {
+  font-size: 60px;
+}
+body .error-mensaje-container p {
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+}
+footer a {
+  color: white;
+  font-size: 16px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
